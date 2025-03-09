@@ -24,7 +24,8 @@
 - Вычисляется смещение β=mean1-αmean2, которое регулирует яркость.
 - Каждый пиксель второго изображения преобразуется по формуле: new_pixel=α(pixel−mean2)+mean1
 - После преобразования значения пикселей могут выходить за диапазон [0, 255], поэтому их необходимо нормализовать.  
- ![brightness](https://github.com/LugenderGeist/computer_vision_2/blob/main/brightness.png)  
+ ![brightness](https://github.com/LugenderGeist/computer_vision_2/blob/main/brightness.png)
+ ![histogram](https://github.com/LugenderGeist/computer_vision_2/blob/main/histogramms.png) 
 По гистограмме сложно сказать, что изображения стали ближе друг к другу по яркости. Однако, работа уже проделана, поэтому проверим, действительно ли такая обработка изображения в данном случае даст какой-то значимый результат при поиске общих ключевых точек.
 
 ## Применение метода SIFT  
